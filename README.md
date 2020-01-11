@@ -12,7 +12,7 @@ Please feel free to clone and use as your own project template.
 - Travis CI Integration
 - Codecov Integration
 - Jest Integration
-- Linting check pre-commit
+- Linting check @ pre-commit
 
 ## Install all dependencies
 
