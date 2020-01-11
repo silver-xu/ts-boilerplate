@@ -7,7 +7,8 @@
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
-    "test": "jest"
+    "test": "jest",
+    "codecov": "codecov"
   },
   "author": "Silver Xu",
   "license": "AGPL-3.0-only",
@@ -16,14 +17,17 @@
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "eslint": "^6.8.0",
+    "husky": "^4.0.6",
     "jest": "^24.9.0",
     "ts-jest": "^24.3.0",
-    "typescript": "^3.7.4",
-    "husky": "^4.0.6"
+    "typescript": "^3.7.4"
   },
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint"
     }
+  },
+  "dependencies": {
+    "codecov": "^3.6.1"
   }
 }
