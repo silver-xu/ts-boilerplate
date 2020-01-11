@@ -6,7 +6,7 @@
 
 > This repo is built to start Typescript projets quickly without missing the essential development tools and build pipelines.
 
-> Please feel free to clone and use as your own project template.
+> Please feel free to fork and use as your own project template.
 
 ## Features
 
