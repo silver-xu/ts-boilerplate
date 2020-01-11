@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "author": "Silver Xu",
-  "license": "ISC",
+  "license": "AGPL-3.0-only",
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
