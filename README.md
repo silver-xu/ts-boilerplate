@@ -20,30 +20,36 @@
 
 ## Install all dependencies
 
-```typescript
+```
 yarn install
 ```
 
 ## Build
 
-```typescript
+```
 yarn build
+```
+
+## Start
+
+```
+yarn start
 ```
 
 ## Test
 
-```typescript
+```
 yarn test
 ```
 
 ## Linting
 
-```typescript
+```
 yarn lint
 ```
 
 ## Fix Linting
 
-```typescript
+```
 yarn format
 ```

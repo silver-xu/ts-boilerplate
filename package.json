@@ -4,6 +4,7 @@
   "description": "Boilerplate for typescript projects powered by eslint and prettier",
   "main": "index.js",
   "scripts": {
+    "start": "yarn build && node dist/index",
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
